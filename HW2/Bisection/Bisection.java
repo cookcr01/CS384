@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 
 public class Bisection {
 	public static void main(String[] args) {
-		BigDecimal one = new BigDecimal(".00001");
+		BigDecimal one = new BigDecimal(".000000001");
 		BisectionAlgo(0.0,1.0,one,1000);
 	}
 
