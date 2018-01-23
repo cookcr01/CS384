@@ -1,15 +1,14 @@
-package hw2;
+package main;
 
 import java.math.BigDecimal;
-import java.util.*;
 
-public class HW2 {
+public class Bisection {
 	public static void main(String[] args) {
-		BigDecimal one = new BigDecimal(".0000000001");
-		Bisection(0.0,1.0,one,1000);
+		BigDecimal one = new BigDecimal(".00001");
+		BisectionAlgo(0.0,1.0,one,1000);
 	}
 
-	public static void Bisection(double start, double end, BigDecimal accuracy, int maxSteps) {
+	public static void BisectionAlgo(double start, double end, BigDecimal accuracy, int maxSteps) {
 		double low = start;
 		double high = end;
 		double intial = doMath(start);
