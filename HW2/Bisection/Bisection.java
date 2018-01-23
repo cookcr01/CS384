@@ -1,5 +1,3 @@
-package main;
-
 import java.math.BigDecimal;
 
 public class Bisection {
